@@ -26,7 +26,7 @@ def blog(request):
           nxt=page+1
      else:
           nxt=None
-     print(prev,nxt)
+     #print(prev,nxt)
      context={'blogs':blogs,'prev':prev,'nxt':nxt}
      return render(request,'bloghome.html',context)
 
