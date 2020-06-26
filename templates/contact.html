@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}
+Contact
+{% endblock title %}
+{% block css %}
+<style>
+  .container{
+    min-height: 100vh;
+  }
+</style>
+{% endblock css %}
+{% block contactactive %}active{% endblock contactactive %}
+{% block body %}
+This is Contact Page
+<div class="container my-3 mx-3" style="background-image:linear-gradient(to_top,#1fa2ff, #12d8fa, #a6ffcb);">
+    <p>If you have any queries contact us at <a href="mailto:rdhar9991@gmail.com?subject=Query&body="><button type="button" class="btn btn-primary btn-sm">Contact me</button></a></p>
+    </div>
+        {% endblock body %}
