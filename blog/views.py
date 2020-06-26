@@ -13,7 +13,7 @@ def blog(request):
           page=1
      else:
           page=int(page)
-     print("pages is {}".format(page))
+     #print("pages is {}".format(page))
      blogs=Blog.objects.all()
      length=len(blogs)
      blogs=blogs[(page-1)*no_of_post:page*no_of_post]

@@ -4,15 +4,25 @@ Contact
 {% endblock title %}
 {% block css %}
 <style>
-  .container{
+  .container {
     min-height: 100vh;
   }
 </style>
 {% endblock css %}
 {% block contactactive %}active{% endblock contactactive %}
 {% block body %}
-This is Contact Page
-<div class="container my-3 mx-3" style="background-image:linear-gradient(to_top,#1fa2ff, #12d8fa, #a6ffcb);">
-    <p>If you have any queries contact us at <a href="mailto:abc@gmail.com?subject=Query&body="><button type="button" class="btn btn-primary btn-sm">Contact me</button></a></p>
-    </div>
-        {% endblock body %}
+
+<div class="container my-3 mx-3" 
+style="background-image:linear-gradient(to_top,#1fa2ff, #12d8fa, #a6ffcb);
+font-size: medium;">
+
+  <b>
+    <h1 >Contact the Team</h1><br><h2>If you have any queries contact us at
+  </b>
+  <a href="mailto:abc@gmail.com?subject=Query&body=">
+    <button type="submit" class="btn btn-primary btn-sm">Contact me</button></a></h2> <br><br>
+  <b>
+    <i><u><h2>We will getback to you ASAP</h2></u></i>
+  </b>
+</div>
+{% endblock body %}
