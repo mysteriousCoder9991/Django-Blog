@@ -14,5 +14,5 @@ Technologies used are :
 Presently its being hosted on the localhost
 In further update Search feature will also be added 
 
-To execute the application type the following command
-__python manage.py runserver__
+To execute the application clone this repository type the following command
+`python manage.py runserver`
